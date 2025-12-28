@@ -123,3 +123,4 @@ document.getElementById('previous').addEventListener('click', () => {
     updateSongListPlayStatus(songIndex, true);
     document.querySelector(".songInfo img").src = songs[songIndex].coverPath;
 })
+
